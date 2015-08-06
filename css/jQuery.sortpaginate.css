@@ -1,0 +1,22 @@
+   .sp_wrapper .sp_table table{
+		table-layout: fixed;
+	}
+	
+   .sp_wrapper .sp_table thead th {
+       cursor: pointer;
+      background-color: gainsboro;
+   }
+    .sp_wrapper .sp_table .sp_sorted_asc {
+        background-image: url("down-arrow.png");
+      background-position: right center;
+        background-repeat: no-repeat;
+    }
+    .sp_wrapper .sp_table .sp_sorted_desc {
+        background-image: url("up-arrow.png");
+      background-position: right center;
+        background-repeat: no-repeat;
+    }
+	.sp_wrapper .sp_navigator .sp_next, .sp_wrapper .sp_navigator .sp_previous {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
